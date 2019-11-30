@@ -1,0 +1,12 @@
+{
+  "name": "clean-string",
+  "version": "1.0.0",
+  "description": "Application to easily clean strings",
+  "main": "index.html",
+  "repository": "git@github.com:carloshenriquess/clean-string.git",
+  "author": "Carlos Henrique <carlos.henrique0307200@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
