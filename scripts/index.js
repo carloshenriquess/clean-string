@@ -1,3 +1,4 @@
+registerServiceWorker()
 
 const input = document.getElementById('textarea-input')
 const output = document.getElementById('textarea-output')
@@ -20,4 +21,13 @@ function pasteFromClipboard() {
     },
     reject => console.log('Que pena!\n:)')
   )
+}
+
+
+function registerServiceWorker() {
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/mr-service-worker.js');
+    });
+  }
 }
