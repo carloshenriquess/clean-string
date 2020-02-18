@@ -2,8 +2,8 @@
   "theme_color": "#0d8e06",
   "background_color": "#0d8e06",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/clean-string/",
+  "start_url": "/clean-string/",
   "name": "Clean string",
   "icons": [
     {
