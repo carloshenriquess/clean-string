@@ -2,8 +2,9 @@
   "theme_color": "#0d8e06",
   "background_color": "#0d8e06",
   "display": "standalone",
-  "Scope": "/",
+  "scope": "/",
   "start_url": "/",
+  "name": "Clean string",
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
